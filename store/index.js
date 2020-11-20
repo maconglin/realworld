@@ -1,6 +1,6 @@
 const cookieparser = process.server ? require('cookieparser') : undefined
 
-export const store = () =>{
+export const state = () =>{
   return {
     user:null
   }

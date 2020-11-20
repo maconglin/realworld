@@ -1,51 +1,51 @@
 [
   {
     "path": "/",
-    "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/layout",
+    "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/layout",
     "children": [
       {
         "path": "",
         "name": "home",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/home",
-        "_name": "_74a967dc"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/home",
+        "_name": "_0a4a4a28"
       },
       {
         "path": "/login",
         "name": "login",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/login",
-        "_name": "_20bbdc0c"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/login",
+        "_name": "_60b8cafc"
       },
       {
         "path": "/register",
         "name": "register",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/login",
-        "_name": "_20bbdc0c"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/login",
+        "_name": "_60b8cafc"
       },
       {
         "path": "/profile/:username",
         "name": "profile",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/profile",
-        "_name": "_8b484ce8"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/profile",
+        "_name": "_224e6708"
       },
       {
         "path": "/settings",
         "name": "settings",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/settings",
-        "_name": "_225f68a0"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/settings",
+        "_name": "_7d80d3b0"
       },
       {
         "path": "/editor/:slug?",
         "name": "editor",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/editor",
-        "_name": "_2b986dac"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/editor",
+        "_name": "_ac568f8c"
       },
       {
         "path": "/article/:slug",
         "name": "article",
-        "component": "/Users/masir/Documents/拉钩教育/students_gitee/work/fed-e-task-03-03-work/realworld-nuxtjs/pages/article",
-        "_name": "_bdb3c64e"
+        "component": "/Users/masir/Documents/拉钩教育/githubCode/realworld/pages/article",
+        "_name": "_54b9e06e"
       }
     ],
-    "_name": "_13faba32"
+    "_name": "_94b8dc12"
   }
 ]
