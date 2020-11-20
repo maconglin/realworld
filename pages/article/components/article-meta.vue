@@ -95,6 +95,7 @@ export default {
     return {};
   },
   methods: {
+ 
     async onFollow(article) {
       try {
         if (!this.user) return this.$router.push("/login");
