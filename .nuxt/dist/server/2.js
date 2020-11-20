@@ -151,23 +151,30 @@ var external_vuex_ = __webpack_require__(2);
 var external_markdown_it_ = __webpack_require__(26);
 var external_markdown_it_default = /*#__PURE__*/__webpack_require__.n(external_markdown_it_);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/article/components/article-meta.vue?vue&type=template&id=77e2d0ec&scoped=true&
-var article_metavue_type_template_id_77e2d0ec_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"article-meta"},[_c('nuxt-link',{attrs:{"to":{
-      name:'profile',
-      params:{username:_vm.article.author.username}
-    }}},[_c('img',{attrs:{"src":_vm.article.author.image}})]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"info\" data-v-77e2d0ec>","</div>",[_c('nuxt-link',{staticClass:"author",attrs:{"to":{
-        name:'profile',
-        params:{username:_vm.article.author.username}
-      }}},[_vm._v(_vm._s(_vm.article.author.username))]),_vm._ssrNode(" <span class=\"date\" data-v-77e2d0ec>"+_vm._ssrEscape(_vm._s(_vm._f("date")(_vm.article.createdAt,'MMM DD,YYYY')))+"</span>")],2),_vm._ssrNode(" "),(!_vm.isAuthor)?_vm._ssrNode("<span data-v-77e2d0ec>","</span>",[_vm._ssrNode("<button"+(_vm._ssrAttr("disabled",_vm.article.followDisabled))+(_vm._ssrClass("btn btn-sm btn-outline-secondary",{active:_vm.article.author.following}))+" data-v-77e2d0ec><i class=\"ion-plus-round\" data-v-77e2d0ec></i>"+_vm._ssrEscape("\n       \n      "+_vm._s(_vm.article.author.following?"Unfollow ":"Follow ")+_vm._s(_vm.article.author.username)+"\n    ")+"</button>\n      \n    <button"+(_vm._ssrAttr("disabled",_vm.article.favoriteDisabled))+(_vm._ssrClass("btn btn-sm btn-outline-primary",{active:_vm.article.favorited}))+" data-v-77e2d0ec><i class=\"ion-heart\" data-v-77e2d0ec></i>"+_vm._ssrEscape("\n       \n      "+_vm._s(_vm.article.favorited?'Unfavorite Article ':'Favorite Article')+"\n      ")+((_vm.article.favoritesCount>0)?("<span class=\"counter\" data-v-77e2d0ec>"+_vm._ssrEscape("("+_vm._s(_vm.article.favoritesCount)+")")+"</span>"):"<!---->")+"</button>")],2):_vm._ssrNode("<span data-v-77e2d0ec>","</span>",[_c('nuxt-link',{staticClass:"btn btn-sm btn-outline-secondary",attrs:{"to":{name:'editor',params:{slug:_vm.article.slug}},"exact":""}},[_c('i',{staticClass:"ion-edit"}),_vm._v(" Edit Article\n    ")]),_vm._ssrNode(" <button"+(_vm._ssrAttr("disabled",_vm.article.deleteDisabled))+" class=\"btn btn-outline-danger btn-sm\" data-v-77e2d0ec><i class=\"ion-trash-a\" data-v-77e2d0ec></i> Delete Article\n    </button>")],2)],2)}
-var article_metavue_type_template_id_77e2d0ec_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/article/components/article-meta.vue?vue&type=template&id=099c0aa0&scoped=true&
+var article_metavue_type_template_id_099c0aa0_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"article-meta"},[_c('nuxt-link',{attrs:{"to":{
+      name: 'profile',
+      params: { username: _vm.article.author.username },
+    }}},[_c('img',{attrs:{"src":_vm.article.author.image}})]),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"info\" data-v-099c0aa0>","</div>",[_c('nuxt-link',{staticClass:"author",attrs:{"to":{
+        name: 'profile',
+        params: { username: _vm.article.author.username },
+      }}},[_vm._v(_vm._s(_vm.article.author.username))]),_vm._ssrNode(" <span class=\"date\" data-v-099c0aa0>"+_vm._ssrEscape(_vm._s(_vm._f("date")(_vm.article.createdAt,"MMM DD,YYYY")))+"</span>")],2),_vm._ssrNode(" "),(!_vm.isAuthor)?_vm._ssrNode("<span data-v-099c0aa0>","</span>",[_vm._ssrNode("<button"+(_vm._ssrAttr("disabled",_vm.article.followDisabled))+(_vm._ssrClass("btn btn-sm btn-outline-secondary",{ active: _vm.article.author.following }))+" data-v-099c0aa0><i class=\"ion-plus-round\" data-v-099c0aa0></i>"+_vm._ssrEscape("\n       \n      "+_vm._s(_vm.article.author.following ? "Unfollow " : "Follow ")+_vm._s(_vm.article.author.username)+"\n    ")+"</button>\n      \n    <button"+(_vm._ssrAttr("disabled",_vm.article.favoriteDisabled))+(_vm._ssrClass("btn btn-sm btn-outline-primary",{ active: _vm.article.favorited }))+" data-v-099c0aa0><i class=\"ion-heart\" data-v-099c0aa0></i>"+_vm._ssrEscape("\n       \n      "+_vm._s(_vm.article.favorited ? "Unfavorite Article " : "Favorite Article")+"\n      ")+((_vm.article.favoritesCount > 0)?("<span class=\"counter\" data-v-099c0aa0>"+_vm._ssrEscape("("+_vm._s(_vm.article.favoritesCount)+")")+"</span>"):"<!---->")+"</button>")],2):_vm._ssrNode("<span data-v-099c0aa0>","</span>",[_c('nuxt-link',{staticClass:"btn btn-sm btn-outline-secondary",attrs:{"to":{ name: 'editor', params: { slug: _vm.article.slug } },"exact":""}},[_c('i',{staticClass:"ion-edit"}),_vm._v(" Edit Article\n    ")]),_vm._ssrNode(" <button"+(_vm._ssrAttr("disabled",_vm.article.deleteDisabled))+" class=\"btn btn-outline-danger btn-sm\" data-v-099c0aa0><i class=\"ion-trash-a\" data-v-099c0aa0></i> Delete Article\n    </button>")],2)],2)}
+var article_metavue_type_template_id_099c0aa0_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/article/components/article-meta.vue?vue&type=template&id=77e2d0ec&scoped=true&
+// CONCATENATED MODULE: ./pages/article/components/article-meta.vue?vue&type=template&id=099c0aa0&scoped=true&
 
 // EXTERNAL MODULE: ./api/editor.js
 var editor = __webpack_require__(30);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/article/components/article-meta.vue?vue&type=script&lang=js&
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -245,9 +252,7 @@ var editor = __webpack_require__(30);
   computed: { ...Object(external_vuex_["mapState"])(["user"]),
 
     isAuthor() {
-      var _this$user;
-
-      return this.article.author.username === ((_this$user = this.user) === null || _this$user === void 0 ? void 0 : _this$user.username);
+      return this.article.author.username === this.user.username;
     }
 
   },
@@ -309,9 +314,9 @@ var editor = __webpack_require__(30);
         } = await Object(editor["b" /* deleteArticle */])(article.slug);
 
         if (JSON.stringify(data) === "{}") {
-          this.$router.push('/');
+          this.$router.push("/");
         } else {
-          console.log('出错了');
+          console.log("出错了");
         }
 
         article.deleteDisabled = false;
@@ -340,11 +345,11 @@ function injectStyles (context) {
 
 var component = Object(componentNormalizer["a" /* default */])(
   components_article_metavue_type_script_lang_js_,
-  article_metavue_type_template_id_77e2d0ec_scoped_true_render,
-  article_metavue_type_template_id_77e2d0ec_scoped_true_staticRenderFns,
+  article_metavue_type_template_id_099c0aa0_scoped_true_render,
+  article_metavue_type_template_id_099c0aa0_scoped_true_staticRenderFns,
   false,
   injectStyles,
-  "77e2d0ec",
+  "099c0aa0",
   "2fc42434"
   
 )
